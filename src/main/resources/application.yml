@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: username
+    password: password
+    
+  datasource:
+    url: jdbc:mysql://192.168.200.88:3306/mungyeong_2?useSSL=false&serverTimezone=UTC&allowMultiQueries=true
+    username: root
+    password: tsei1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 5666 
+  
+  
